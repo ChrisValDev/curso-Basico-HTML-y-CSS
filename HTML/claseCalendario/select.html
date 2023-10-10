@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Select</title>
+    </head>
+    <body>
+        <main><!--A continuación se muestran dos maneras de crear listas de opciones, la segunda es la mejor tanto por buena práctica como por EXP de usuario-->
+            <select name="cursos" id=""> <!--Select etiqueta para crear una lista, atributo name="nombre de la lista"--> 
+                <option value="JavaScript">JavaScript</option><!--<option value="nombre de la opcion">nombre de la opcion</option>, value="se envia a la base de datos" option etiqueta para agregar una opción dentro de la lista-->
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standards">Web Standards</option>
+            </select>
+            <input list="cursos"><!--input list="nombre de lista" etiqueta para crear una lista con entrada de texto para facilitar una busqueda de opcion, utilizada en casos donde las opciones son muchas-->
+            <datalist id="cursos"><!--datalist id="nombre de lista" etiqueta de lista de datos, para agregar opciones dentro va la etiqueta de option-->
+                <option value="JavaScript"></option><!--<option value="nombre la opcion"></option>-->
+                <option value="HTML5"></option><!--aqui no se coloca nombre de la opcion entre la etiqueta de apertura y cierre por que no aparecería en el navegador por estardentro de datalist-->
+                <option value="CSS3"></option>
+                <option value="Web Standards"></option>
+            </datalist>
+        </main>
+    </body>
+</html>

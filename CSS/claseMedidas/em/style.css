@@ -1,0 +1,12 @@
+
+.text-container {
+    font-size: 1.5em; /*La medida em. va a tomar el tamaño de fuente que tenga el padre directo*/
+} /*esta tomando el tamaño de fuente de html ya que body no tiene tamaño de fuente 
+y elige el de html que es de 16px, sin embargo si se le asigna un tamaño de fuente
+a body, se asignaría ese valor*/
+
+.text-container div {
+    font-size: 1.5em;
+}
+/*em no es de las medidas mas recomendadas a utilizar, a menos que seas un experto 
+sabiendo donde colocarla, claro esta*/

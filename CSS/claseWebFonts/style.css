@@ -1,0 +1,8 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Buenas prácticas
+- Cargar solo 1 fuente externa por proyecto para que no pegue demasiado en performance maximo en 500.
+- Importarlas siempre en la etiqueta head.
+- Si se va acargr una segunda fuente externa que este justificado, ya mas de dos es un problema para renderizar la página.*/

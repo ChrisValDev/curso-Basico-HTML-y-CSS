@@ -1,0 +1,10 @@
+/*Los combinadores nos permiten combinar multiples selectores y crear una mayopr especifidad*/
+div > p {/*Child/Hijo "directo" se invoca con el simbolo de MAYOR QUE ">"*/
+    color: red /*El color rojo impacta a todos los hijos que son los parrafos del padre div*/
+}/*se coloca al padre (div) el combinador (>) y el hijo (p) y llaves para colocar las propiedades y estilos.
+div > p {propiedad: valor;} */
+
+/*
+div p { Desendent/Descendiente se invoca solo con poner al padre espacio y el hijo
+    color: blue; aqui impactara a todas las etiquetas p que esten dentro de etiqueta padre div
+}*/

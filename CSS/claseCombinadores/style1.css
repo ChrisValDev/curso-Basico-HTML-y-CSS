@@ -1,0 +1,4 @@
+/*Los combinadores nos permiten combinar multiples selectores y crear una mayopr especifidad*/
+h2 ~ p {/*General sibling (hermano general se invoca con el simbolo de tilde "~" */
+    color: red; /*El color rojo impacta directamente a la etiqueta "p" por ser la indicada*/
+}

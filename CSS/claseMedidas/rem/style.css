@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /*con este valor en html podemos utilizar rem para la fuente, 1.6 rem = 16px*/
+}
+
+p {
+    font-size: 1.6rem;
+}/*El rem es una medida noble ya que solo se asignara el tamaño de fuente de html
+le asigne un tamaño de fuente a html y se le asigno ese valor*/
+
+main div {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,33 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px; /*padding es un espacio interno dentro de un contenedor/caja de elemento)*/
+    background-color: #13a4a4; /*background-color sirve para agregar color de fondo*/
+}
+
+.main-nav__item {
+    display: inline-block; /*En lugar de tener los elementos en lista, pasan a estar alineados en horizontal*/
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 10px; /*Ayuda a rdondear las esquinas y poderle dar una fomra alas cajas.*/
+    text-decoration: none;
+}
+/*La pseudo classe define el estilo de un estado(hover,active) especial de un elemento.
+Pseudo clase, clase (main-nav__item) selector (a) dos puntos (:) y pseudoClase (hover) llaves {propiedad: valor} */
+.main-nav__item a:hover {/*hover, cambia el color del texto cuando el mouse esta encima.*/
+    color: blue;
+}
+
+.main-nav__item a:active {/*active, cambia el color del texto cuando das clic con el mouse.*/
+    color: red;
+}
+/*El pseudo elemento define el estilo de una parte especifica de un elemento.
+Pseudo elemento, clase (main-nav__item) selector (a) doble dos puntos (::) y pseudoElemento (after) llaves {propiedad: valor;} */
+.main-nav__item a::after {/*after, despues del elemento*/
+    content: " | ";/*content es un estilo que indica que contenido agregar*/
+}
+
+

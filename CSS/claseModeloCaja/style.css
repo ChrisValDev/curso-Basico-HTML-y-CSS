@@ -1,0 +1,12 @@
+* { /*(*) el asterisco es un selector universal*/
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%; /*width, ancho del contenedor*/
+    height: 500px; /*height, alto del contenedor*/
+    border: 10px solid grey; /*border, borde del contenedor*/
+    padding: 20px 35px; /*padding, espacio entre los bordes del contenedor y su contenido*/
+}

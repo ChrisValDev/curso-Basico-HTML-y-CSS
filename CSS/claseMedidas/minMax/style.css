@@ -1,0 +1,20 @@
+* {/*selector univeersal (*) el asterisco*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;/*se resetean los valores predeterminados*/
+}
+
+main {
+    width: 100vw; /*width es igual al ancho*//*vw es igual a view width*/
+    height: 100vh; /*height es igual al alto*//*vh es igual a view hight*/
+    background-color: purple;
+}
+
+section {
+    width: 80%; /*en el min/max width es importante tener un width de base que es el 80% en este caso*/
+    min-width: 320px; /*min/max sirven para limitar el crecimiento del contenedor*/
+    max-width: 500px;
+    min-height: 500px; /*en el hight no es necesario poner una base, simplemente puedes poner el min/max a tu necesidad*/
+    margin: 0 auto;
+    background-color: red;
+}

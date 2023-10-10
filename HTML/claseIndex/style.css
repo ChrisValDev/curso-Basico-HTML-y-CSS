@@ -1,0 +1,39 @@
+h1{
+    color:darkblue;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+}
+
+#frutas{
+    color: orangered;
+    font-size: 30px;
+    font-family: Impact;
+    font-style: oblique;
+}
+
+#verduras{
+    color: greenyellow;
+    font-size: 30px;
+    font-family: Impact;
+    font-style: oblique;
+}
+
+#carnes{
+    color:brown;
+    font-size: 30px;
+    font-family: Impact;
+    font-style: normal;
+}
+
+a{
+    color: darkblue;
+    font-size: 40px;
+    text-decoration-style: dotted;
+}
+
+footer{
+    color: black;
+    font-size: 50px;
+    font-family: Impact;
+}

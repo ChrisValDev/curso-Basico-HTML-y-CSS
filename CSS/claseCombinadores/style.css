@@ -1,0 +1,4 @@
+/*Los combinadores nos permiten combinar multiples selectores y crear una mayopr especifidad*/
+h2 + p {/*Adjancent sibling (hermano adyacente o cercano se invoca con el simbolo de mas "+" */
+    color: red; /*El color rojo impacta directamente a la etiqueta "p" que este inmediatamente despues de un "h2"*/
+}

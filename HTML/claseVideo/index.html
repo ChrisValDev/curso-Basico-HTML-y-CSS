@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video de atardecer</title> <!--title etiqueta para poner un título en la pestaña de la página-->
+    </head>
+    <body>
+        <main>
+            <section>
+                <video controls preload="auto"> <!--video etiqueta para cargar un video a la página mediante src se busca en directorio al igual que una imagen, controls funciona para colocar los controles del video y poder iniciar, pausar, adelantar, etc. preload="auto" sirve para que el video cargue y se renderice mas rapido cuando se abre la página-->
+                    <source src="./atardecer.mp4#t=5,10"/><!--source esta etiqueta se agrega para poder agregar diferentes extensiones del mismo video y el navegador no tenga problemas de compatibilidad con una sola extensión-->
+                </video>
+            </section>
+        </main>
+    </body>
+</html>

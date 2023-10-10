@@ -1,0 +1,46 @@
+/*Tenemos diferentes positions en CSS, todas las etiquetas de HTML vienen por default con el position  "static"*/
+/*Tambien estan los positions -absolute, relative, fixed y sticky*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.box1 {
+    width: 600px;
+    height: 400px;
+    background-color: #D9D4D3;
+    border-radius: 80px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    border: 5px dashed black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20px;
+    position: absolute;
+    left: 25%;
+    bottom: 350px;
+    border: 4px dashed black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1 p {
+    width: 70%;
+}

@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: .3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Esto funciona teniendo un display flex en el padre contenedor*/
+    /*align-items: baseline; /*disminuye el tamaño en vertical al tamaño del elemento, no debe tener valor height para aplicarlo.
+    /*align-items: stretch; /*aumenta el tamaño del elemento en vertical al 100% del contenedor padre, no debe tener valor height el elemento para aplicarlo*/
+    /*align-items: center; /*centra las cajas dentro del contenedor en forma horizontal*/
+    /*align-items: flex-start; /*coloca las cajas al inicio dentro del contenedor en forma horizontal*/
+    /*align-items: flex-end; /*coloca las cajas al final dentro del contenedor en forma horizontal*/
+    /*justify-content: space-evenly; /*los espacios entre cajas sean iguales*/
+    /*justify-content: center; /*centrar el contenido en vertical*/
+    /*flex-wrap: wrap; /*el contenedor se adapte al tamaño del contenido*/
+
+.box {
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: rgb(165, 42, 42);
+}
+/*
+.box1 {
+    background-color: rgb(165, 42, 42);
+    flex-grow: 1;
+}
+
+/*flex-grow: 1;/*es recomendable colocarlo directamente en la caja que queremos que tome el espacio en blanco restante del contenedor, lo hace mas responsive*/
+.box2 {
+    background-color: rgb(218, 25, 25);
+}
+
+.box3 {
+    background-color: rgb(206, 209, 21);
+}
+
+.box4 {
+    background-color: rgb(236, 38, 170);
+}
+
+.box5 {
+    background-color: rgb(67, 23, 228);
+}
+
+.box6 {
+    background-color: rgb(26, 212, 110);
+}

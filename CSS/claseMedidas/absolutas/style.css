@@ -1,0 +1,12 @@
+main{
+    background-color: red;
+    width: 600px; 
+    height: 500px;
+}
+
+/*px es una medida absoluta. Sera el mismo tamaño de pixeles estemos en
+la pantalla de un movil o una tablet, laptop, etc.*/
+
+p {
+    font-size:  16px;
+}
